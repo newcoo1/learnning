@@ -1,0 +1,4 @@
+echo rm copythis
+rm -rf copythis
+echo copy wks to copythis
+cp wks copythis -r

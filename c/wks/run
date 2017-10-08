@@ -1,0 +1,6 @@
+#!/bin/sh
+printf '    *****MAKE ************************\n'
+make exef  && chmod +x exef && 
+printf '    *****RUN  ************************\n'&&
+./exef
+printf '$*********DONE ************************\n'
