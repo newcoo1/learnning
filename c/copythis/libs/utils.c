@@ -92,7 +92,8 @@ int sysinfo(void){
   int sc=sizeof(char);
   int sl=sizeof(long);
   int ss=sizeof(short);
-  printf("*size:\n     char:%d  short:%d  int:%d long:%d float:%d  double:%d\n",
-		      sc,      ss,	 si,    sl ,    sf,       sd);
+  printf("sysinfo ");
+  printf("*size:\n          char:%d  short:%d  int:%d long:%d float:%d  double:%d\n",
+	                   sc,      ss,	 si,    sl ,    sf,       sd);
   return 0;
 }

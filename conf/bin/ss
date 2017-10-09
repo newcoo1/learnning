@@ -1,0 +1,1 @@
+sudo sslocal -c /home/ubuntu/learnning/conf/ca.js -d start

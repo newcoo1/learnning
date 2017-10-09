@@ -1,2 +1,0 @@
-sudo pip install shadowsocks
-ssserver -k 220807cy -p 9229 -d start
