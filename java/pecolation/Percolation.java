@@ -76,8 +76,8 @@ public class Percolation {
    public boolean percolates(){return qu.connected(0,size+1);}              // does the system percolate?
   
    public static void main(String[] args) {
-     int sz=200;
-     int t=100;
+     int sz=100;
+     int t=10;
      double sum=0;
      Percolation per10=new Percolation(sz);
      while(!per10.percolates()){
