@@ -3,18 +3,36 @@
   <project autorefresh="false" main="Percolation" root="" work="">
     <createjar file=""/>
     <source>
-      <file active="true" name="PercolationStats.java" package="" timestamp="20-May-2018 02:08:37">
-        <select from="1472" to="1472"/>
-        <scroll column="980" row="0"/>
+      <file active="true" name="Percolation.java" package="" timestamp="21-May-2018 12:20:48">
+        <select from="2505" to="2505"/>
+        <scroll column="2304" row="0"/>
       </file>
-      <file name="Percolation.java" package="" timestamp="20-May-2018 00:29:40">
-        <select from="1472" to="1472"/>
-        <scroll column="980" row="0"/>
+      <file name="PercolationStats.java" package="" timestamp="21-May-2018 07:03:59">
+        <select from="2505" to="2505"/>
+        <scroll column="2304" row="0"/>
+      </file>
+      <file name="test/Percolation.java.uselss" package="" timestamp="21-May-2018 07:54:30">
+        <select from="2505" to="2505"/>
+        <scroll column="2304" row="0"/>
+      </file>
+      <file name="test/Per.java" package="" timestamp="21-May-2018 09:36:17">
+        <select from="2505" to="2505"/>
+        <scroll column="2304" row="0"/>
+      </file>
+      <file name="InteractivePercolationVisualizer.java" package="" timestamp="21-May-2018 10:24:51">
+        <select from="2505" to="2505"/>
+        <scroll column="2304" row="0"/>
+      </file>
+      <file name="PercolationVisualizer.java" package="" timestamp="21-May-2018 10:40:59">
+        <select from="2505" to="2505"/>
+        <scroll column="2304" row="0"/>
       </file>
     </source>
     <included/>
     <excluded/>
-    <collapsed/>
+    <collapsed>
+      <path name="./[ Source Files ]/test/"/>
+    </collapsed>
     <classpath>
       <file absolute="false" name="../../../../algs4.jar"/>
     </classpath>

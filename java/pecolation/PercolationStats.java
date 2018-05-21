@@ -5,17 +5,17 @@ import java.lang.Integer;
 import java.lang.IllegalArgumentException;
 
 public class PercolationStats {
-   double m;
-   double s;
-   double cl;
-   double ch;
-   double edges[];
+   private double m;
+   private double s;
+   private double cl;
+   private double ch;
+   private double edges[];
    public PercolationStats(int n, int trials){
       edges=new double[trials];
       for (int i=0;i<trials;++i){
            Percolation per=new Percolation(n);
-           while(!per.percolates()){ per.open(StdRandom.uniform(1,per.n+1),StdRandom.uniform(1,per.n+1));}
-           edges[i]=(double)per.numberOfOpenSites()/per.size;
+           while(!per.percolates()){ per.open(StdRandom.uniform(1,n+1),StdRandom.uniform(1,n+1));}
+           edges[i]=(double)per.numberOfOpenSites()/(n*n);
       }
       m=StdStats.mean(edges) ;
       s=StdStats.stddev(edges);
